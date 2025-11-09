@@ -81,3 +81,7 @@ jobs:
         done
         done   
 
+    - name: Print Environment
+      run: echo "Running in ${{ github.event.inputs.environment }}"
+    
+    
